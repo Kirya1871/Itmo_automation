@@ -1,4 +1,10 @@
 
+def f5(list):
+    i = 0
+    for x in list:
+        if x > 0:
+            i = i + 1
+    print(i)
 def f4(a, b ,c):
     if a > 10 and b > 10 and c > 10:
         print('yes')
@@ -36,3 +42,5 @@ f2(1.0, 136)
 
 f3(5)
 f4(11, 11, 112)
+x=[1, 5, -22, 98, 55]
+f5(x)
