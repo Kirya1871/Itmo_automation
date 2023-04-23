@@ -1,4 +1,11 @@
 
+def calc_days(years, months):
+    total_months = years * 12 + months
+    total_days = total_months * 29
+    print(f"Количество дней за {years} лет и {months} месяцев: {total_days}")
+
+calc_days(1, 1)
+
 def f5(list):
     i = 0
     for x in list:
