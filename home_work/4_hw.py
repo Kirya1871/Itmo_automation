@@ -23,3 +23,35 @@ print(f"Прямоугольник 1: Площадь = {object}, Перимет�
 print(f"Прямоугольник 2: Площадь = {object1}, Периметр = {perimetr1}")
 print(f"Прямоугольник 3: Площадь = {object2}, Периметр = {perimetr2}")
 
+
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def addition(self, a, b):
+        result = a + b
+        print(result)
+
+    def multiplication(self, a, b):
+        result = a * b
+        print(result)
+
+    def division(self, a, b):
+        result = a / b
+        print(result)
+
+    def subtraction(self, a, b):
+        result = a - b
+        print(result)
+
+math_obj = Math(7, 9)
+math_obj.addition(10, 20)
+math_obj.multiplication(10, 20)
+math_obj.division(10, 2)
+math_obj.subtraction(10, 5)
+
+class Button:
+    def __init__(self, text, link):
+        self.text = text
+        self.link = link
