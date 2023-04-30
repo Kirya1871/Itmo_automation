@@ -51,7 +51,3 @@ math_obj.multiplication(10, 20)
 math_obj.division(10, 2)
 math_obj.subtraction(10, 5)
 
-class Button:
-    def __init__(self, text, link):
-        self.text = text
-        self.link = link
